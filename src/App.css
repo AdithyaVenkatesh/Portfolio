@@ -83,14 +83,20 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
-  color: var(--text-color);
+  background-color:#121212 ;
+  color: #8892B1;
 }
 
-h1,
-h2,
-h3 {
-  color: var(--title-color);
+h1{
+  color: white;
+  font-weight: var(--font-semi-bold);
+}
+h2{
+  color: white;
+  font-weight: var(--font-semi-bold);
+}
+h3{
+  color: white;
   font-weight: var(--font-semi-bold);
 }
 
@@ -120,7 +126,7 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: white;
 }
 
 .section__subtitle {

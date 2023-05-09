@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Smith</h1>
+        <h1 className="footer__title">Adithya</h1>
 
         <ul className="footer__list">
           <li>
@@ -15,47 +15,47 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#portfolio" className="footer__link">
-              Projects
+            <a href="#skills" className="footer__link">
+              Skills
             </a>
           </li>
 
           <li>
-            <a href="#testimonials" className="footer__link">
-              Testimonials
+            <a href="#services" className="footer__link">
+              Services
             </a>
           </li>
         </ul>
 
         <div className="footer__social">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.linkedin.com/"
             className="footer__social-link"
             target="_blank"
           >
-            <i className="bx bxl-facebook"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
 
           <a
-            href="https://www.instagram.com/"
+            href="https://github.com/AdithyaVenkatesh"
             className="footer__social-link"
             target="_blank"
           >
-            <i className="bx bxl-instagram"></i>
+            <i className="bx bxl-github"></i>
           </a>
 
-          <a
+          {/* <a
             href="https://twitter.com/"
             className="footer__social-link"
             target="_blank"
           >
-            <i className="bx bxl-twitter"></i>
-          </a>
+            <i className="bx bxl-"></i>
+          </a> */}
         </div>
 
-        <span className="footer__copy">
+        {/* <span className="footer__copy">
           &#169; Crypticalcoder. All rigths reserved
-        </span>
+        </span> */}
       </div>
     </footer>
   );

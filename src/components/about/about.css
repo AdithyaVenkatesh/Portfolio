@@ -2,12 +2,15 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 4rem;
+    
 }
 
 .about__img {
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    
+    
 }
 
 .about__info {
@@ -17,7 +20,7 @@
 }
 
 .about__box {
-    background-color: var(--container-color);
+    background-color: var(--title-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
@@ -26,7 +29,7 @@
 
 .about__icon {
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: white;
     margin-bottom: var(--mb-0-5);
 }
 

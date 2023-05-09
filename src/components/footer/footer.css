@@ -1,13 +1,16 @@
 .footer {
-    background-color: var(--container-color);
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #121212;
+    border-top: 1px solid white;
+
 }
 
 .footer__container {
     padding: 2rem 0 6rem;
 }
 
-.footer__title,
+.footer__title{
+    color: white;
+}
 .footer__link {
     color: var(--title-color);
 }
@@ -18,7 +21,7 @@
 }
 
 .footer__link:hover {
-    color: var(--title-color-dark);
+    color: white;
 }
 
 .footer__list {
