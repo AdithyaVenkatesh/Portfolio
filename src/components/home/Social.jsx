@@ -3,24 +3,24 @@ import React from "react";
 const Social = () => {
   return (
     <div className="home__social">
-      <a
+      {/* <a
         href="https://www.instagram.com/"
         className="home__social-icon"
         target="_blank"
       >
         <i className="uil uil-instagram"></i>
-      </a>
+      </a> */}
 
       <a
-        href="https://dribbble.com/"
+        href="https://www.linkedin.com/in/adithya-v-67281995/"
         className="home__social-icon"
         target="_blank"
       >
-        <i className="uil uil-dribbble"></i>
+        <i className="uil uil-linkedin"></i>
       </a>
 
       <a
-        href="https://github.com/"
+        href="https://github.com/AdithyaVenkatesh"
         className="home__social-icon"
         target="_blank"
       >

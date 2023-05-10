@@ -58,6 +58,13 @@
     visibility: hidden;
     transition: .3s;
 }
+.about__img {
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+    
+    
+}
 
 .services__modal-content {
     width: 500px;

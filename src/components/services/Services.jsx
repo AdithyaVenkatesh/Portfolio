@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./services.css";
-
+// import fordsvg from '../../assets/Ford_logo_flat.svg';
+// import infosyssvg from '../../assets/Infosys_logo.svg';
 const Services = () => {
   const [toggleState, setToggleState] = useState(0);
 
@@ -10,12 +11,13 @@ const Services = () => {
 
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What i offer</span>
+      <h2 className="section__title">Where I’ve Worked</h2>
+      {/* <span className="section__subtitle">--------------------------------</span> */}
 
       <div className="services__container container grid">
         <div className="services__content">
           <div>
+          {/* <img src={fordsvg} alt="" className="about__img" /> */}
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
               Product <br /> Designer

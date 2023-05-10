@@ -21,7 +21,7 @@
 }
 
 .home__social-icon:hover {
-  color: var(--title-color-dark);
+  color: white;
 }
 
 .home__title {
@@ -59,7 +59,7 @@
 }
 
 .home__img {
-  background: url(../../assets//Adhi2.png);
+  background: url(../../assets//Adhi.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
