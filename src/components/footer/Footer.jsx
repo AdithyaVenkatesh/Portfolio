@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer__container container">
         <h1 className="footer__title">Adithya</h1>
 
-        <ul className="footer__list">
+        {/* <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
               About
@@ -25,7 +25,12 @@ const Footer = () => {
               Qualification
             </a>
           </li>
-        </ul>
+          <li>
+            <a href="#experience" className="footer__link">
+              Experience
+            </a>
+          </li>
+        </ul> */}
 
         <div className="footer__social">
           <a
