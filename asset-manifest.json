@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bb7b0149.css",
-    "main.js": "/portfolio/static/js/main.2096cd08.js",
+    "main.js": "/portfolio/static/js/main.19484e54.js",
     "static/media/Adithya-Venkatesh.pdf": "/portfolio/static/media/Adithya-Venkatesh.e25fb98a72ea81508455.pdf",
     "static/media/Adhi.png": "/portfolio/static/media/Adhi.6ee91fc6fb385ad74d5f.png",
     "static/media/work2.jpg": "/portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
@@ -11,10 +11,10 @@
     "static/media/work3.jpg": "/portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
     "index.html": "/portfolio/index.html",
     "main.bb7b0149.css.map": "/portfolio/static/css/main.bb7b0149.css.map",
-    "main.2096cd08.js.map": "/portfolio/static/js/main.2096cd08.js.map"
+    "main.19484e54.js.map": "/portfolio/static/js/main.19484e54.js.map"
   },
   "entrypoints": [
     "static/css/main.bb7b0149.css",
-    "static/js/main.2096cd08.js"
+    "static/js/main.19484e54.js"
   ]
 }
