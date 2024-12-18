@@ -15,6 +15,65 @@ const Services = () => {
       <span className="section__subtitle">Where I’ve Worked</span>
 
       <div className="services__container container grid">
+      <div className="services__content">
+          <div>
+          <i className="uil uil-briefcase-alt qualification__icon"></i>
+            <h3 className="services__title">UWorld LLC</h3>
+          </div>
+
+          <span className="services__button" onClick={() => toggleTab(3)}>
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 3
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
+
+              <h3 className="services__modal-title">UWorld LLC</h3>
+              <h3 className="services__modal-title">
+                Software Developer 
+              </h3>
+
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    • Revamped legacy ASP.NET components into an Angular-based system, leveraging NPM for dependency management and TypeScript for type-safe development, 
+                    boosting user experience and increasing system performance and scalability by 20%.
+                    <br />• Architected a course-building component integrating video media, lectures, and lessons, 
+                    simplifying course creation for 90% of the internal team and reducing assembly time by 30% for course delivery.
+                    <br />• Elevated content consistency and delivery timelines by 30%, reducing post-release updates by 20% and supporting efficient, 
+                    scalable course launches across the organization.
+                    <br />• Spearheaded the development of an HTML editor module, now used by over 80% of the team, 
+                    increasing content formatting accuracy by 25%.
+                  </p>
+                </li>
+              </ul>
+              <h3 className="services__modal-title">Software Developer Intern</h3>
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    • Integrated and customized third-party applications like Aspose and CKEditor, 
+                    boosting content management efficiency by 25%.
+                    <br />• Built and unified components for converting Word and PDF documents to HTML, 
+                    increasing system efficiency by 15% with enhanced content accessibility and presentation using ASP.NET.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div className="services__content">
           <div>
           <i className="uil uil-briefcase-alt qualification__icon"></i>
@@ -41,33 +100,25 @@ const Services = () => {
 
               <h3 className="services__modal-title">Ford Motor Company</h3>
               <p className="services__modal-description">
-                RPA/Full-Stack Developer
+                Software Engineer
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    • Redesigned processes and identified areas that can be
-                    automated using RPA tools such as UiPath and PEGA, resulting
-                    in 90% reduction in manual effort and 97% increase in
-                    accuracy.
-                    <br />• Contributed in creating more than 15 Bots for
-                    websites in downloading data and creating reports to reduce
-                    time and Manual Error by 97%.
-                    <br />• Devised around 10 bots to save 6 hours of daily
-                    repetitive task to decided based on training data.
-                    <br />• Associated in creating C# and python script to
-                    automate websites which cannot be done using PEGA.
-                    <br />• Revamped a manual process in sending reports to
-                    dealers across US by developing a bot which sends accurate
-                    reports to Dealers across US which saves 3-4 million
-                    monthly.
-                    <br />• Restructured dealer page with new components and
-                    functionality for retrieving instant data and report in-turn
-                    saving time by 95%, Built a RESTful API using Node.js to
-                    provide a secure connection between front-end and backend
-                    services.
+                    • Designed and implemented a modular dealer page with reusable components, 
+                    enabling real-time data retrieval and reporting, improving data access efficiency by 95%.
+                    <br />• Automated the VIN update workflow for vehicles with expired or renewed warranties,
+                     seamlessly integrating it into the warranty management system and enhancing data accuracy by 40%.
+                    <br />• Created a dynamic reporting component to generate and export custom warranty reports, 
+                    reducing manual data consolidation efforts by 30%.
+                    <br />• Integrated lazy-loading for individual components to enhance application scalability, 
+                    improving overall loading performance by 20%.
+                    <br />• Built flexible and reusable React components to standardize the app’s UI, 
+                    accelerating development and ensuring a consistent design across the application.
+                    <br />• Ensured development best practices by implementing unit and integration tests, 
+                    while producing comprehensive documentation to support scalable and maintainable systems.
                   </p>
                 </li>
 
